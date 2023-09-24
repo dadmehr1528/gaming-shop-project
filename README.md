@@ -1,1 +1,0 @@
-# gaming-shop-project
