@@ -23,16 +23,14 @@ header nav .nav-right a {
   font-size: 1.1em;
 }
 
-header nav .nav-right a:last-child{
+header nav .nav-right a:last-child {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #05c46b;
-  border-radius: 6px;
 }
 
-header nav .nav-right a:last-child p{
-    display: inline-block;
+header nav .nav-right a:last-child p {
+  display: inline-block;
   margin: 0 0 0 10px;
   color: #444;
 }
@@ -340,7 +338,7 @@ footer .left .socials a {
   margin-right: 10px;
 }
 
-footer .left .socials a:hover{
+footer .left .socials a:hover {
   color: #05c46b;
 }
 
@@ -349,4 +347,18 @@ footer .bottom {
   text-align: center;
   padding: 15px;
   color: #2ecc71;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-sticker {
+    display: none !important;
+  }
+
+  .poster-title {
+    display: none;
+  }
+
+  .buttons {
+    display: none;
+  }
 }
